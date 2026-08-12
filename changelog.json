@@ -1,0 +1,149 @@
+[
+  {
+    "version": "1.5.0",
+    "datum": "2026-08-12",
+    "punkte": [
+      "Der Update-Weg über den Programmordner und update.bat war umständlich — starten Sie FlächenKlar künftig einfach über FlaechenKlar.bat: Updates werden dort automatisch erkannt und mit einem Klick installiert.",
+      "Der Update-Dialog zeigt jetzt zusätzlich kurz, was sich seit Ihrer Version geändert hat, statt nur die neue Versionsnummer."
+    ]
+  },
+  {
+    "version": "1.4.4",
+    "datum": "2026-08-12",
+    "punkte": [
+      "Bei Verwaltungsgemeinschaften zeigte das Aufmaßprotokoll teils das Wappen der falschen Gemeinde — das Protokoll übernimmt jetzt zuverlässig das Wappen der im Projekt gewählten Gemeinde."
+    ]
+  },
+  {
+    "version": "1.4.3",
+    "datum": "2026-08-06",
+    "punkte": [
+      "Beim Eintippen des Versanddatums im Beitragsbescheid sprang die automatisch berechnete Fälligkeit gelegentlich auf ein falsches Jahr (z. B. 1902) — die Berechnung verwirft jetzt unvollständige Jahresangaben, statt ein falsches Datum zu setzen."
+    ]
+  },
+  {
+    "version": "1.4.2",
+    "datum": "2026-08-05",
+    "punkte": [
+      "Ohne Aufmaß ließ sich der Beitragsbescheid bisher gar nicht öffnen, etwa bei reiner Grundstücksmehrung ohne neue Geschossfläche — er lässt sich jetzt auch ohne Aufmaß öffnen, mit einer Rückfrage für diesen Sonderfall."
+    ]
+  },
+  {
+    "version": "1.4.1",
+    "datum": "2026-07-26",
+    "punkte": [
+      "Die Ablauf-Anzeige zeigte den Bearbeitungsstand teils fürs ganze Projekt statt für das gerade aktive Geschoss — sie zeigt jetzt korrekt den Stand je Geschoss.",
+      "Beim Anlegen eines neuen Geschosses schlägt das Tool jetzt gängige Bezeichnungen vor (Keller-, Erd-, Ober-, Dachgeschoss)."
+    ]
+  },
+  {
+    "version": "1.4.0",
+    "datum": "2026-07-26",
+    "punkte": [
+      "Neue Ablauf-Leiste führt Schritt für Schritt durchs Aufmaß, damit immer klar ist, was als Nächstes ansteht.",
+      "Abzugsflächen (z. B. Luftraum, abgemauerte Bereiche) lassen sich jetzt über einen eigenen Dialog erfassen statt über ein einfaches Browser-Eingabefenster.",
+      "Stammdaten lassen sich jetzt direkt speichern — das bisherige manuelle Kopieren der Datei entfällt."
+    ]
+  },
+  {
+    "version": "1.3.3",
+    "datum": "2026-07-23",
+    "punkte": [
+      "Bei einer Nacherhebung war für den Empfänger nicht nachvollziehbar, wie sich der niedrigere Betrag ergibt — der Bescheid zeigt jetzt die Zahlen-Herleitung.",
+      "Bei zwei Zahlungspflichtigen fehlte teils die persönliche Anrede für den zweiten — beide werden jetzt korrekt einzeln angeschrieben."
+    ]
+  },
+  {
+    "version": "1.3.2",
+    "datum": "2026-07-23",
+    "punkte": [
+      "Flächen, die zwar innerhalb der Umrisse liegen, aber nicht mitzählen sollen (z. B. Luftraum, abgemauerte Bereiche), lassen sich jetzt je Geschoss als Abzugsfläche erfassen."
+    ]
+  },
+  {
+    "version": "1.3.1",
+    "datum": "2026-07-22",
+    "punkte": [
+      "Wurde ein Plan importiert, bevor die Gemeinde-Stammdaten hinterlegt waren, fand der Bescheid anschließend keine ausstellende Behörde für den Briefkopf — bei genau einer hinterlegten Gemeinde übernimmt der Bescheid diese jetzt automatisch."
+    ]
+  },
+  {
+    "version": "1.3.0",
+    "datum": "2026-07-15",
+    "punkte": [
+      "Neu: Fotos von Papierplänen lassen sich importieren und über vier angeklickte Eckpunkte automatisch entzerren, inklusive Pflicht-Kontrollmaß für die Genauigkeit."
+    ]
+  },
+  {
+    "version": "1.2.7",
+    "datum": "2026-07-06",
+    "punkte": [
+      "Der Update-Hinweis im Hilfemenü wurde vereinfacht — kein technischer Direktlink mehr, klarer Hinweistext."
+    ]
+  },
+  {
+    "version": "1.2.6",
+    "datum": "2026-07-05",
+    "punkte": [
+      "Die automatische Maßstab-Erkennung führte in der Praxis zu Fehlalarmen — Messen ist jetzt der Standardweg, eine Automatik-Empfehlung erscheint nur noch bei sehr sicherer Beweislage."
+    ]
+  },
+  {
+    "version": "1.2.5",
+    "datum": "2026-07-04",
+    "punkte": [
+      "Bei detailreichen Plänen mit vielen Winkel-/Gradangaben verwarf das Tool einen korrekt eingegebenen Maßstab teils fälschlich — das ist behoben."
+    ]
+  },
+  {
+    "version": "1.2.4",
+    "datum": "2026-07-02",
+    "punkte": [
+      "Das Datum im Aufmaßblatt zeigte das ursprüngliche Anlagedatum des Projekts statt des Ausdruck-Datums — es zeigt jetzt das tatsächliche Export-Datum."
+    ]
+  },
+  {
+    "version": "1.2.3",
+    "datum": "2026-06-25",
+    "punkte": [
+      "Der errechnete Wert der Vollgeschoss-Teilfläche (≥ 2,30 m lichte Höhe) lässt sich jetzt von Hand nachjustieren, wenn er um Zentimeter nicht passt."
+    ]
+  },
+  {
+    "version": "1.2.2",
+    "datum": "2026-06-25",
+    "punkte": [
+      "Das Tool gleicht einen eingegebenen Maßstab jetzt automatisch gegen die im Plan gemessene Bemaßung ab und warnt, wenn ein Plan nicht maßstabsgetreu exportiert wurde (z. B. „Auf Seite anpassen“)."
+    ]
+  },
+  {
+    "version": "1.2.1",
+    "datum": "2026-06-21",
+    "punkte": [
+      "Der Update-Knopf meldete bei manchen Nutzern fälschlich „Update-Server nicht erreichbar“, weil ein Server-Umzug nicht sauber weitergeleitet wurde — die Update-Prüfung läuft jetzt zuverlässig."
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "datum": "2026-06-21",
+    "punkte": [
+      "Das Aufmaß lässt sich jetzt zusätzlich als CSV/JSON exportieren.",
+      "Bei bemaßten Plänen schlägt das Tool den Maßstab jetzt automatisch vor, gezeichnete Punkte rasten automatisch an vorhandenen Plan-Linien ein."
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "datum": "2026-06-15",
+    "punkte": [
+      "Für maßhaltige Pläne lässt sich der Maßstab jetzt direkt eingeben, statt ihn zu messen.",
+      "Die Grenzhöhe für die Anrechnung lässt sich an die jeweilige kommunale Satzung anpassen (Standard bleibt 2,30 m)."
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "datum": "2026-05-16",
+    "punkte": [
+      "Erste stabile Version."
+    ]
+  }
+]
