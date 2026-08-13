@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.5.1",
+    "datum": "2026-08-13",
+    "punkte": [
+      "Das Update über update.bat schlug auf älteren Windows-Servern mit einer TLS-Fehlermeldung fehl, obwohl der Update-Server im Browser normal erreichbar war — behoben."
+    ]
+  },
+  {
     "version": "1.5.0",
     "datum": "2026-08-12",
     "punkte": [
