@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.5.2",
+    "datum": "2026-08-14",
+    "punkte": [
+      "Der automatische Update-Vorgang wurde zuverlässiger gemacht — künftige Verbesserungen kommen ohne Zutun bei Ihnen an.",
+      "Zwei neue Hinweisbalken schützen vor Bescheiden mit falschen Daten: Der eine meldet, wenn sich einer Akte keine eindeutige Gemeinde zuordnen lässt (sonst könnten Beitragssätze, Wappen oder Briefkopf von der falschen Gemeinde stammen); der andere erinnert daran, dass geänderte Stammdaten erst nach Ablage als kommune.js und Neuladen für die ganze Installation gelten. Beide führen mit einem Klick direkt zur richtigen Stelle.",
+      "Im Beitragsbescheid lassen sich die Beitragssätze jetzt per Knopf erneut aus den Stammdaten übernehmen — praktisch, wenn die Gemeinde-Zuordnung einer Akte erst nachträglich korrigiert wurde."
+    ]
+  },
+  {
     "version": "1.5.1",
     "datum": "2026-08-13",
     "punkte": [
