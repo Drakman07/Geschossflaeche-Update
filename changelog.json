@@ -1,5 +1,14 @@
 [
   {
+    "version": "1.5.3",
+    "datum": "2026-08-20",
+    "punkte": [
+      "Der Programmkopf zeigt jetzt zuverlässig die Gemeinde der geöffneten Akte — bei mehreren Gemeinden (Verwaltungsgemeinschaften) wurde bisher teils die Standard-Gemeinde statt der richtigen angezeigt.",
+      "Aufmaßprotokoll, Beitragsbescheid und CSV-Export nutzen jetzt dieselbe Gemeinde-Zuordnung wie der Programmkopf — kein Auseinanderlaufen mehr zwischen den Dokumenten einer Akte.",
+      "Eine interne Abweichungs-Anzeige im Vollgeschoss-Baustein (nicht die tatsächliche Fläche im Bescheid) konnte nach nachträglicher Grenzhöhen-Änderung veraltet sein — behoben."
+    ]
+  },
+  {
     "version": "1.5.2",
     "datum": "2026-08-14",
     "punkte": [
