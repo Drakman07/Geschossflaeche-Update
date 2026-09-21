@@ -1,0 +1,3 @@
+# Batchdateien werden byteweise ausgeliefert (GitHub Pages serviert den Blob
+# unveraendert). cmd.exe braucht CRLF, sonst brechen mehrzeilige for-/if-Bloecke.
+*.bat -text
