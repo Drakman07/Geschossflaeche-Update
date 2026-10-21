@@ -1,5 +1,15 @@
 [
   {
+    "version": "1.5.6",
+    "datum": "2026-10-21",
+    "punkte": [
+      "Beitragsbescheid: Der Betrag wird aus der gedruckten Fläche berechnet. Das Aufmaß speichert Flächen mit drei Nachkommastellen, der Bescheid druckt sie mit zwei. Bisher rechnete das Programm den Betrag mit der ungerundeten Fläche: Aus 185,695 m², gedruckt als 185,70 m², ergaben sich bei 19,30 EUR/m² 3.583,91 EUR, obwohl sich aus den gedruckten Zahlen 3.584,01 EUR ergeben. Jetzt rundet das Programm die Flächen zuerst kaufmännisch auf zwei Nachkommastellen (ab 5 in der dritten Stelle wird aufgerundet) und berechnet den Betrag aus diesen gedruckten Werten. Bei einer Nacherhebung ist die Mehrfläche die Differenz der beiden gedruckten Flächen. Jede Zahl im Bescheid lässt sich damit aus den danebenstehenden Faktoren nachrechnen. Bitte beachten Sie: Bescheidbeträge können sich dadurch gegenüber früheren Versionen um wenige Cent ändern. Bescheide, die Sie bereits versandt haben, ändert die neue Version nicht. Der Betrag wird bei jedem Export neu berechnet; erzeugen Sie einen Bescheid aus einem gespeicherten Projekt erneut, kann er um diese wenigen Cent abweichen.",
+      "Beitragsbescheid: Der Ansprechpartner steht neben der Anschrift. In der Word-Ausgabe stand der Block „Ihr Ansprechpartner“ bisher als eigener Absatz über dem Anschriftenfeld. Er steht jetzt rechts neben der Anschrift auf gleicher Höhe; die Anordnung ist eine Tabelle ohne sichtbare Linien. Im PDF stand der Block bisher oben im Briefkopf und überdruckte bei einem langen Behördennamen, etwa dem eines Zweckverbands, den Namen. Auch dort steht er jetzt neben dem Anschriftenfeld. Lange Anschriften und lange E-Mail-Adressen brechen um, statt sich zu überlagern.",
+      "Beitragsbescheid: Beitragssätze erscheinen mit bis zu vier Nachkommastellen. Der Bescheid druckt einen Beitragssatz wie 19,305 EUR/m² jetzt vollständig. Bisher stand er auf zwei Stellen gerundet (19,31) im Bescheid, obwohl mit 19,305 gerechnet wurde. Auch die Masken für Stammdaten und Bescheid zeigen die Sätze mit allen Stellen und runden sie beim Speichern nicht mehr auf zwei Stellen. Ein Satz mit mehr als vier Nachkommastellen lässt sich nicht vollständig drucken; die Prüfung vor dem Export lehnt ihn ab.",
+      "Beitragsbescheid: Hinweis bei Projekten mit einem früher erstellten Bescheid. Wurde für ein Projekt schon ein Bescheid mit einer Version vor 1.5.6 erstellt, zeigt die Bescheidmaske einen Hinweis, dass ein erneut erzeugter Bescheid wegen der Rundung der Flächen um wenige Cent abweichen kann. Der Hinweis verschwindet, sobald im Projekt ein Bescheid mit Version 1.5.6 oder neuer erstellt wurde."
+    ]
+  },
+  {
     "version": "1.5.5",
     "datum": "2026-10-20",
     "punkte": [
